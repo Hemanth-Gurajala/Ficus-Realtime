@@ -37,6 +37,20 @@
     color: #323f4b;
     font-family: "Roboto";
 }
+#navItem7 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+@media (min-width: 992px) {
+    #navItem7{
+        display: none; 
+    }
+}
+@media (max-width:991px){
+    .login-btn{
+        display: none;
+    }
+}
 nav a:hover{
     background-color: #0d7814 !important;
     border-radius: 8px;
@@ -89,6 +103,7 @@ nav a:hover{
     font-size: 46px;
     font-family: "Roboto";
     font-weight: bold;
+    margin-top:100px;
 }
 
 .aboutus-description {

@@ -48,6 +48,20 @@ nav a:hover{
     color: #323f4b;
     font-family: "Roboto";
 }
+#navItem7 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+@media (min-width: 992px) {
+    #navItem7{
+        display: none; 
+    }
+}
+@media (max-width:991px){
+    .login-btn{
+        display: none;
+    }
+}
 .login-btn-container {
     display: flex;
     justify-content: center;
