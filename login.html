@@ -68,7 +68,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
   
   var users = JSON.parse(localStorage.getItem('users')) || [];
-
   
   var loggedInUser = users.find(function(user) {
     return user.email === email && user.password === password;
@@ -82,6 +81,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     alert('Incorrect email or password. Please try again.');
   }
 });
+
+
+
 </script>
 
 </body>
