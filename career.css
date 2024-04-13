@@ -278,3 +278,8 @@ input {
         font-size: 14px;
     }
 }
+@media (max-width:991px){
+    .banner{
+        font-size: 24px;
+    }
+}
